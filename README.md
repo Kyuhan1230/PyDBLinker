@@ -15,6 +15,11 @@
 
 ### MSSQL
 #### MSSQL-사용법
+- 아래의 명령어를 이용하여 라이브러리를 다운받습니다.
+```
+pip install pymssql
+```
+
 ```python
 from connect_mssql import query_db
 
@@ -50,6 +55,11 @@ else:
 ### MYSQL
 
 #### MYSQL-사용법
+- 아래의 명령어를 이용하여 라이브러리를 다운받습니다.
+```
+pip install pymysql
+```
+
 ```python
 from connect_mysql import query_db
 
